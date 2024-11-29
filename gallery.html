@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML workshop</title>
+
+    <style>
+      body {
+        font-family: sans-serif;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        background: linear-gradient(#5058c91a);
+        background-color: azure;
+      }
+
+      nav {
+        background-color: #3eb4f432;
+        padding: 10px;
+      }
+
+      .nav-links {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        justify-content: space-around;
+      }
+
+      .nav-links a {
+        color: rgb(170, 160, 214);
+        text-decoration: none;
+        padding: 10px 15px;
+        display: flex;
+      }
+
+      .nav-links li {
+        margin: 0 15px;
+      }
+
+      .nav-links a:hover {
+        background-color: #c961b4;
+        border-radius: 5px;
+      }
+
+      footer {
+        text-align: center;
+        margin-top: 20px;
+        padding: 20px 0;
+        background-color: rgb(150, 208, 208);
+      }
+      .image-container {
+        text-align: center;
+        margin: auto;
+      }
+
+      .softened-image {
+        width: 100%;
+        max-width: 600px;
+        height: auto;
+        border-radius: 15px;
+        filter: blur(0px);
+      }
+      h1,
+      h3,
+      p {
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>GALLERY</h1>
+    </header>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="project.html">Project</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+      </ul>
+    </nav>
+
+    <div class="image-container">
+      <img src="people-coding.jpg" alt="people-coding" class="softened-image" />
+    </div>
+
+    <h3>THE JOURNEY IN A MONTH</h3>
+
+    <section class="image-container">
+      <img src="lady_coding.jpg" alt="lady_coding" class="softened-image" />
+    </section>
+
+    <section class="image-container">
+      <img src="keyboard_disp.jpg" alt="keyboard_disp" class="softened-image" />
+    </section>
+    <footer>
+      <p>Batsa Emmanuel</p>
+      <p>Diploma In Cyber Security</p>
+      <p>1684496647</p>
+      <p>&copy; 2024 Our site. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
